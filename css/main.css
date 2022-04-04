@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(35, 110, 110);
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    background-color: rgb(31, 26, 36);
+    text-align: center;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+tr, td{
+    font-size: 20px;
+    text-align: center;
+    background-color: azure;
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    text-decoration: solid;
+    border-radius: 10%;
+    
+}
+
+table {
+    margin: auto;
+}
+
+td:hover {
+    background-color: rgb(130, 212, 212);
+}
+
+.dead {
+    background-color: black;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px ;
+
+}
+
+.easy {
+background-color: rgb(32, 175, 56);
+}
+
+.hard {
+background-color: orange;
+}
+
+.extreme {
+background-color: red;
+}
+
+div {
+    border: 1px solid black;
+    background-color: bisque;
+    margin: auto;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    margin-bottom: 15px;
+}
